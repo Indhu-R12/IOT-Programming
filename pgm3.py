@@ -1,1 +1,1 @@
-print("This file is uploaded from ggole cloud platform")
+print("Edited from git hub")
