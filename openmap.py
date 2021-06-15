@@ -11,7 +11,7 @@ OPEN_WEATHER_MAP_API_KEY = "2044cf9a5c7dfe9cd2cc887a27598c3e"
 lat = '9.557270'
 lon = '76.789436'
 #Create openweathermap url
-api_url = "api_url = "https://api.openweathermap.org/data/2.5/onecall?lat="+str(lat)+"&lon="+str(lon)+"&exclude=hourly,daily,minutely,alerts+&appid="+OPEN_WEATHER_MAP_API_KEY+"&units=metric"
+api_url = "https://api.openweathermap.org/data/2.5/onecall?lat="+str(lat)+"&lon="+str(lon)+"&exclude=hourly,daily,minutely,alerts+&appid="+OPEN_WEATHER_MAP_API_KEY+"&units=metric"
 app = Flask(__name__)
 @app.route('/fetchWeather')
 def get_open_weather_map_data():
